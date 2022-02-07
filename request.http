@@ -12,4 +12,16 @@ GET http://localhost:3000/products
 
 
 ###
-GET http://localhost:3000/products/3d834479-d58e-4277-be3f-af379be70b71
+GET http://localhost:3000/products/76e5a95f-ec2d-47b1-bf8a-cf1bd920b559
+
+###
+PUT http://localhost:3000/products/76e5a95f-ec2d-47b1-bf8a-cf1bd920b559
+Content-Type: application/json
+
+{
+    "name":"controle",
+    "price": 120
+}
+
+###
+DELETE http://localhost:3000/products/407b6814-5b3d-41c6-94fd-edcb009bf69

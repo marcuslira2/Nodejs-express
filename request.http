@@ -1,0 +1,15 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name":"controle",
+    "price": 150
+}
+
+###
+
+GET http://localhost:3000/products
+
+
+###
+GET http://localhost:3000/products/3d834479-d58e-4277-be3f-af379be70b71
